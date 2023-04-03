@@ -20,9 +20,10 @@ import { InicioComponent } from './inicio/inicio.component';
 import { LoginComponent } from './login/login.component';
 import { MenuComponent } from './menu/menu.component';
 import { RodapeComponent } from './rodape/rodape.component';
+import { CadastroComponent } from './cadastro/cadastro.component';
 
 @NgModule({
-  declarations: [AppComponent, InicioComponent, LoginComponent, MenuComponent, RodapeComponent],
+  declarations: [AppComponent, InicioComponent, LoginComponent, MenuComponent, RodapeComponent, CadastroComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

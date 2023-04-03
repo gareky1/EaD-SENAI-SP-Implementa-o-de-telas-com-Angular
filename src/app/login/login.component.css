@@ -25,6 +25,18 @@ main {
     width: 350px;
 }
 
+#botao-cadastrar {
+    left: 30px;
+    position: relative;
+}
+
+
+
 .d-flex {
     display: block !important;
+}
+
+a {
+    text-decoration: none;
+
 }

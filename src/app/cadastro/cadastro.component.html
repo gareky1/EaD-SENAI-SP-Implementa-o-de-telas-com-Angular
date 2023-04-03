@@ -1,0 +1,61 @@
+<main>
+  <section id="section-cadastro">
+    <div id="form-cadastrar">
+      <h1>Criar minha conta</h1>
+      <h5>Informe os seus dados abaixo para criar sua conta.</h5>
+
+      <div class="d-flex justify-content-center">
+        <form method="post" action="" id="cadastro">
+          <p>
+            <label for="usuario">Usuário: </label>
+            <input
+              id="cUsuario"
+              name="cUsuario"
+              required="required"
+              type="text"
+              placeholder="ex. nome de usuário"
+              class="form-control"
+            />
+          </p>
+          <p>
+            <label for="email">E-mail: </label>
+            <input
+              id="email"
+              name="cEmail"
+              required="required"
+              type="text"
+              placeholder="admin@admin.com"
+              class="form-control"
+            />
+          </p>
+          <p>
+            <label for="senha">Senha: </label>
+            <input
+              id="cSenha"
+              name="cSenha"
+              required="required"
+              type="password"
+              placeholder="mínimo de 6 caracteres"
+              class="form-control"
+            />
+          </p>
+          <p>
+            <input
+              type="button"
+              value="Cadastrar"
+              class="btn btn-primary"
+              id="bt-cadastrar"
+            />
+          </p>
+          <a routerLink="/login">
+            <div id="botao-login">
+              <button type="button" class="btn btn-info">
+                Ja tem uma conta? Login
+              </button>
+            </div>
+          </a>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
