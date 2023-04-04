@@ -1,20 +1,65 @@
 <main>
-  <h1>Cadastrar jogo</h1>
   <section id="section-cadastro">
-    <form>
-      <label for="produto">Nome do Produto</label>
-      <input type="text" class="form-control" name="produto" />
-      <br />
-      <label for="descricao">Descrição</label>
-      <input type="text" class="form-control" name="descricao" />
-      <br />
-      <label for="foto">Foto</label>
-      <input type="text" class="form-control" name="foto" />
-      <br />
-      <label for="preco">Preço</label>
-      <input type="number" class="form-control" name="preco" />
-      <br />
-      <button type="button" class="btn btnprimary mb-3">Cadastrar</button>
-    </form>
+    <div id="form-cadastrar">
+      <h1>Cadastar Banner</h1>
+      <h5>Informe os seus dados abaixo para criar seu banner.</h5>
+
+      <div class="d-flex justify-content-center">
+        <form method="post" action="" id="cadastro">
+          <p>
+            <label for="usuario">Nome do Produto: </label>
+            <input
+              id="produto"
+              name="produto"
+              required="required"
+              type="text"
+              placeholder="ex. nome do banner"
+              class="form-control"
+            />
+          </p>
+          <p>
+            <label for="descricao">Descrição: </label>
+            <input
+              id="descricao"
+              name="descricao"
+              required="required"
+              type="text"
+              placeholder="ex. banner do luffy"
+              class="form-control"
+            />
+          </p>
+          <p>
+            <label for="foto">Foto: </label>
+            <input
+              id="foto"
+              name="foto"
+              required="required"
+              type="text"
+              placeholder="bannerLuffy.png"
+              class="form-control"
+            />
+          </p>
+          <p>
+            <label for="preco">Preço: </label>
+            <input
+              id="preco"
+              name="preco"
+              required="required"
+              type="number"
+              placeholder="10.0"
+              class="form-control"
+            />
+          </p>
+          <p>
+            <input
+              type="button"
+              value="Cadastrar"
+              class="btn btn-primary"
+              id="bt-cadastrar"
+            />
+          </p>
+        </form>
+      </div>
+    </div>
   </section>
 </main>

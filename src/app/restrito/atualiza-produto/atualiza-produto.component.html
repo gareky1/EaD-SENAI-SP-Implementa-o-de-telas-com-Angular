@@ -1,23 +1,60 @@
 <main>
-  <h1>Atualiza jogo</h1>
   <section id="section-cadastro">
-    <form>
-      <label for="produto">Id</label>
-      <input type="text" class="form-control" name="id" />
-      <br />
-      <label for="produto">Nome do Produto</label>
-      <input type="text" class="form-control" name="produto" />
-      <br />
-      <label for="descricao">Descrição</label>
-      <input type="text" class="form-control" name="descricao" />
-      <br />
-      <label for="foto">Foto</label>
-      <input type="text" class="form-control" name="foto" />
-      <br />
-      <label for="preco">Preço</label>
-      <input type="number" class="form-control" name="preco" />
-      <br />
-      <button type="submit" class="btn btn-primary mb3">Atualizar</button>
-    </form>
+    <div id="form-cadastrar">
+      <h1>Atualizar Banner</h1>
+
+      <div class="d-flex justify-content-center">
+        <form method="post" action="" id="cadastro">
+          <p>
+            <label for="usuario">Nome do Produto: </label>
+            <input
+              id="produto"
+              name="produto"
+              required="required"
+              type="text"
+              class="form-control"
+            />
+          </p>
+          <p>
+            <label for="descricao">Descrição: </label>
+            <input
+              id="descricao"
+              name="descricao"
+              required="required"
+              type="text"
+              class="form-control"
+            />
+          </p>
+          <p>
+            <label for="foto">Foto: </label>
+            <input
+              id="foto"
+              name="foto"
+              required="required"
+              type="text"
+              class="form-control"
+            />
+          </p>
+          <p>
+            <label for="preco">Preço: </label>
+            <input
+              id="preco"
+              name="preco"
+              required="required"
+              type="number"
+              class="form-control"
+            />
+          </p>
+          <p>
+            <input
+              type="button"
+              value="Atualizar"
+              class="btn btn-primary"
+              id="bt-cadastrar"
+            />
+          </p>
+        </form>
+      </div>
+    </div>
   </section>
 </main>
