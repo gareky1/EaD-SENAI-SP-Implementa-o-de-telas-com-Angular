@@ -3,8 +3,20 @@
     <div id="form-cadastrar">
       <h1>Atualizar Banner</h1>
 
-      <div class="d-flex justify-content-center">
+      <div *ngIf="produto" class="d-flex justify-content-center">
         <form method="post" action="" id="cadastro">
+          <p>
+            <label for="usuario">id: </label>
+            <input
+              
+              name="id"
+              required="required"
+              type="text"
+              class="form-control"
+              [(ngModel)]="produto.id"
+              
+            />
+          </p>
           <p>
             <label for="usuario">Nome do Produto: </label>
             <input
@@ -13,6 +25,7 @@
               required="required"
               type="text"
               class="form-control"
+              [(ngModel)]="produto.produto"
             />
           </p>
           <p>
@@ -23,6 +36,7 @@
               required="required"
               type="text"
               class="form-control"
+              [(ngModel)]="produto.descricao"
             />
           </p>
           <p>
@@ -33,6 +47,7 @@
               required="required"
               type="text"
               class="form-control"
+              [(ngModel)]="produto.foto"
             />
           </p>
           <p>
@@ -43,15 +58,18 @@
               required="required"
               type="number"
               class="form-control"
+              [(ngModel)]="produto.preco"
             />
           </p>
           <p>
-            <input
+            <button
               type="button"
-              value="Atualizar"
               class="btn btn-primary"
               id="bt-cadastrar"
-            />
+              (click)="atualizar(produto.id)"
+            >
+              Atualizar
+            </button>
           </p>
         </form>
       </div>

@@ -16,13 +16,13 @@
       <td>{{ p.produto }}</td>
       <td>{{ p.descricao }}</td>
       <td>
-        <img mat-card-image src="./assets/img/{{ p.foto }}" alt="produto" />
+        <img mat-card-image src="../../../assets/img/{{ p.foto }}" alt="produto" />
       </td>
       <td>{{ p.preco | currency : "BRL" }}</td>
       <td>
         <a
           class="btn btn-primary"
-          routerLink="/restrito/editar/{{ p.id }}"
+          routerLink="/restrito/atualizar/{{ p.id }}"
           role="button"
           >Editar</a
         >

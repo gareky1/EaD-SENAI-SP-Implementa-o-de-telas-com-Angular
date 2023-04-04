@@ -8,7 +8,7 @@ import {ListaProdutoComponent} from '../restrito/lista-produto/lista-produto.com
 
 const routes: Routes = [
   { path: 'restrito', component: RestritoComponent },
-  { path: 'restrito/atualizar', component: AtualizaProdutoComponent },
+  { path: 'restrito/atualizar/:id', component: AtualizaProdutoComponent },
   { path: 'restrito/cadastro', component: CadastroProdutoComponent },
   { path: 'restrito/lista', component: ListaProdutoComponent },
   { path: '', redirectTo: '/inicio', pathMatch: 'full' },
