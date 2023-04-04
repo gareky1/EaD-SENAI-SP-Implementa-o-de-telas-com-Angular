@@ -1,10 +1,12 @@
-main{
+main {
     min-height: 500px;
 }
-#section-baner{
+
+#section-baner {
     min-height: 400px;
 }
-h2{
+
+h2 {
     text-align: center;
     font-size: 30px;
     margin-top: 20px;
@@ -19,15 +21,21 @@ img#carousel-banners {
     max-width: 400px;
 }
 
-mat-grid-list{
+.card img {
+    width: 350px;
+    height: 200px;
+}
+
+mat-grid-list {
     margin: 10px 0px;
 }
 
-mat-grid-tile{
+mat-grid-tile {
     padding: 2px;
     border-radius: 30px;
 }
-mat-card-header{
+
+mat-card-header {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,7 +46,13 @@ mat-card-actions {
     justify-content: space-around;
 }
 
-mat-card-actions p{
-   color: red;
-   font-size: 20px;
+mat-card-actions p {
+    color: red;
+    font-size: 20px;
+}
+
+mat-card-content p {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
 }
