@@ -2,3 +2,6 @@ table img {
     height: 50px;
     width: 50px;
 }
+table{
+    margin-left: 20px;
+}

@@ -3,9 +3,9 @@
     {
       "id": 1,
       "produto": "Banner do Luffy",
-      "descricao": "Banner do luffy",
-      "foto": "luffyBanner.png",
-      "preco": 300
+      "descricao": "Banner do Luffy",
+      "foto": "lufyBanner.png",
+      "preco": "300"
     },
     {
       "id": 2,
@@ -20,6 +20,9 @@
       "descricao": "Banner do Sanji",
       "foto": "sanjiBanner.png",
       "preco": 100
+    },
+    {
+      "id": "4"
     }
   ]
 }

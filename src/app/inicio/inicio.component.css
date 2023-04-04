@@ -42,3 +42,7 @@ mat-card-actions p{
    color: red;
    font-size: 20px;
 }
+mat-card-image{
+    width: 800px;
+    height: 300px;
+}
