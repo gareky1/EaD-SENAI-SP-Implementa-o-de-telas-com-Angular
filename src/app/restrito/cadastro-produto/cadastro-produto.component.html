@@ -15,6 +15,7 @@
               type="text"
               placeholder="ex. nome do banner"
               class="form-control"
+              [(ngModel)]="produto.produto"
             />
           </p>
           <p>
@@ -26,6 +27,7 @@
               type="text"
               placeholder="ex. banner do luffy"
               class="form-control"
+              [(ngModel)]="produto.descricao"
             />
           </p>
           <p>
@@ -37,6 +39,7 @@
               type="text"
               placeholder="bannerLuffy.png"
               class="form-control"
+              [(ngModel)]="produto.foto"
             />
           </p>
           <p>
@@ -48,15 +51,18 @@
               type="number"
               placeholder="10.0"
               class="form-control"
+              [(ngModel)]="produto.preco"
             />
           </p>
           <p>
-            <input
+            <button
               type="button"
-              value="Cadastrar"
               class="btn btn-primary"
               id="bt-cadastrar"
-            />
+              (click)="cadastrar()"
+            >
+              Cadastrar
+            </button>
           </p>
         </form>
       </div>

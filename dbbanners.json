@@ -16,13 +16,17 @@
     },
     {
       "id": 3,
-      "produto": "Banner do Sanji",
-      "descricao": "Banner do Sanji",
+      "produto": "Banner do sanji",
+      "descricao": "Banner do sanji",
       "foto": "sanjiBanner.png",
-      "preco": 100
+      "preco": "100"
     },
     {
-      "id": "4"
+      "id": "5I10UWv",
+      "produto": "Banner do luffy 2",
+      "descricao": "Banner do luffy 2",
+      "foto": "luffyBanner.png",
+      "preco": "350"
     }
   ]
 }
