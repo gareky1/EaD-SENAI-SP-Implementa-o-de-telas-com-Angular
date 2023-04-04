@@ -44,6 +44,6 @@ export class AtualizaProdutoComponent implements OnInit {
         console.log('erro ao atualizar');
       }
     );
-    this._router.navigate(['/restrito/lista']);
+    this._router.navigate(['/restrito/restrito/lista']);
   }
 }

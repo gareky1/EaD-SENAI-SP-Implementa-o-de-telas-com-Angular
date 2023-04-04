@@ -24,6 +24,6 @@ export class CadastroProdutoComponent implements OnInit {
         alert('erro ao cadastrar');
       }
     );
-    this.router.navigate(['/restrito/lista']);
+    this.router.navigate(['/restrito/restrito/lista']);
   }
 }

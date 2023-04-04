@@ -12,6 +12,7 @@
             type="text"
             placeholder="Insira o seu usuário"
             class="form-control"
+            [(ngModel)]="usuario"
           />
         </p>
         <p>
@@ -23,22 +24,26 @@
             type="password"
             placeholder="Insira a sua senha"
             class="form-control"
+            [(ngModel)]="senha"
           />
         </p>
         <p>
-          <input
+          <button
             type="button"
             value="login"
             class="btn btn-primary"
             id="bt-login"
-          />
-        </p>
-        <a routerLink="/cadastro"> 
-        <div id="botao-cadastrar">
-          <button type="button" class="btn btn-info">
-            Não é cadastrado ainda? Cadastre-se 
+            (click)="fazerLogin()"
+          >
+            login
           </button>
-        </div>
+        </p>
+        <a routerLink="/cadastro">
+          <div id="botao-cadastrar">
+            <button type="button" class="btn btn-info">
+              Não é cadastrado ainda? Cadastre-se
+            </button>
+          </div>
         </a>
       </form>
     </div>

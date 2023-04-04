@@ -5,7 +5,7 @@
       "produto": "Banner do Luffy",
       "descricao": "Banner do Luffy",
       "foto": "lufyBanner.png",
-      "preco": "300"
+      "preco": 400
     },
     {
       "id": 2,
@@ -22,11 +22,11 @@
       "preco": 100
     },
     {
-      "id": "5I10UWv",
-      "produto": "Banner do luffy 2",
-      "descricao": "Banner do luffy 2",
+      "id": 4,
+      "produto": "banner do luffy 2",
+      "descricao": "banner do luffy 2",
       "foto": "luffyBanner.png",
-      "preco": "350"
+      "preco": 350
     }
   ]
 }
