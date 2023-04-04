@@ -1,0 +1,25 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "produto": "Banner do Luffy",
+      "descricao": "Banner do luffy",
+      "foto": "luffyBanner.png",
+      "preco": 300
+    },
+    {
+      "id": 2,
+      "produto": "Banner do Zoro",
+      "descricao": "Banner do Zoro",
+      "foto": "zoroBanner.png",
+      "preco": 200
+    },
+    {
+      "id": 3,
+      "produto": "Banner do Sanji",
+      "descricao": "Banner do Sanji",
+      "foto": "sanjiBanner.png",
+      "preco": 100
+    }
+  ]
+}
