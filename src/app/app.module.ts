@@ -1,17 +1,20 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
-/*Imports Angular Material */
-import {MatButtonModule} from '@angular/material/button';
+/*Importações Angular Material*/
+import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatGridListModule } from '@angular/material/grid-list';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatGridListModule } from '@angular/material/grid-list';
 
 /**/
+import { RestritoRoutingModule } from './restrito/restrito-routing.module';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -28,7 +31,19 @@ import { ListaProdutoComponent } from './restrito/lista-produto/lista-produto.co
 import { MenuRestritoComponent } from './restrito/menu-restrito/menu-restrito.component';
 
 @NgModule({
-  declarations: [AppComponent, InicioComponent, LoginComponent, MenuComponent, RodapeComponent, CadastroComponent, RestritoComponent, AtualizaProdutoComponent, CadastroProdutoComponent, ListaProdutoComponent, MenuRestritoComponent],
+  declarations: [
+    AppComponent,
+    InicioComponent,
+    LoginComponent,
+    MenuComponent,
+    RodapeComponent,
+    CadastroComponent,
+    RestritoComponent,
+    AtualizaProdutoComponent,
+    CadastroProdutoComponent,
+    ListaProdutoComponent,
+    MenuRestritoComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -41,6 +56,10 @@ import { MenuRestritoComponent } from './restrito/menu-restrito/menu-restrito.co
     MatToolbarModule,
     MatFormFieldModule,
     MatGridListModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+    RestritoRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
